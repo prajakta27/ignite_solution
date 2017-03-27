@@ -7,14 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		004CD07199C906DC5383C72D /* libPods-IgniteProblemUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C12CEC00B2B7E5B49025C48B /* libPods-IgniteProblemUITests.a */; };
+		464E89745573AD4D65157B7C /* libPods-IgniteProblemTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C433BB7D789D91CCAE09D49 /* libPods-IgniteProblemTests.a */; };
+		795EB1DE1E84556800084AF9 /* prescription_ph@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 795EB1DD1E84556800084AF9 /* prescription_ph@3x.png */; };
 		79B0D0E01E842DA1003D6F78 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 79B0D0DF1E842DA1003D6F78 /* main.m */; };
 		79B0D0E31E842DA1003D6F78 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 79B0D0E21E842DA1003D6F78 /* AppDelegate.m */; };
-		79B0D0E61E842DA1003D6F78 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79B0D0E51E842DA1003D6F78 /* ViewController.m */; };
 		79B0D0E91E842DA1003D6F78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79B0D0E71E842DA1003D6F78 /* Main.storyboard */; };
 		79B0D0EB1E842DA1003D6F78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79B0D0EA1E842DA1003D6F78 /* Assets.xcassets */; };
 		79B0D0EE1E842DA1003D6F78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79B0D0EC1E842DA1003D6F78 /* LaunchScreen.storyboard */; };
 		79B0D0F91E842DA2003D6F78 /* IgniteProblemTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79B0D0F81E842DA2003D6F78 /* IgniteProblemTests.m */; };
 		79B0D1041E842DA2003D6F78 /* IgniteProblemUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79B0D1031E842DA2003D6F78 /* IgniteProblemUITests.m */; };
+		79B0D1151E843122003D6F78 /* back-arrow-circle.png in Resources */ = {isa = PBXBuildFile; fileRef = 79B0D1111E843122003D6F78 /* back-arrow-circle.png */; };
+		79B0D1161E843122003D6F78 /* back-arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 79B0D1121E843122003D6F78 /* back-arrow.png */; };
+		79B0D1171E843122003D6F78 /* omdb-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 79B0D1131E843122003D6F78 /* omdb-logo.png */; };
+		79B0D1181E843122003D6F78 /* search-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 79B0D1141E843122003D6F78 /* search-icon.png */; };
+		79B0D11E1E8436C6003D6F78 /* SearchMovieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79B0D11D1E8436C6003D6F78 /* SearchMovieViewController.m */; };
+		79B0D1231E843897003D6F78 /* SearchedResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79B0D1221E843897003D6F78 /* SearchedResultViewController.m */; };
+		79B0D1261E8438AD003D6F78 /* SelectedMovieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79B0D1251E8438AD003D6F78 /* SelectedMovieViewController.m */; };
+		79B0D1291E8438D5003D6F78 /* DataObjectClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 79B0D1281E8438D5003D6F78 /* DataObjectClass.m */; };
+		79B0D12C1E8438ED003D6F78 /* APIFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 79B0D12B1E8438ED003D6F78 /* APIFile.m */; };
+		79B0D12F1E84390D003D6F78 /* PacketsFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 79B0D12E1E84390D003D6F78 /* PacketsFile.m */; };
+		79B0D1321E843CB6003D6F78 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 79B0D1311E843CB6003D6F78 /* Reachability.m */; };
+		965B5917D32BDD137A8612B9 /* libPods-IgniteProblem.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 26174A34FE2A24B68C0D2B7C /* libPods-IgniteProblem.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +49,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		22E62083E9206D800EC99C4B /* Pods-IgniteProblemTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IgniteProblemTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-IgniteProblemTests/Pods-IgniteProblemTests.release.xcconfig"; sourceTree = "<group>"; };
+		26174A34FE2A24B68C0D2B7C /* libPods-IgniteProblem.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IgniteProblem.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E7DF08A6ACB3CA00DD23CDF /* Pods-IgniteProblem.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IgniteProblem.release.xcconfig"; path = "Pods/Target Support Files/Pods-IgniteProblem/Pods-IgniteProblem.release.xcconfig"; sourceTree = "<group>"; };
+		795EB1DD1E84556800084AF9 /* prescription_ph@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "prescription_ph@3x.png"; sourceTree = "<group>"; };
 		79B0D0DB1E842DA1003D6F78 /* IgniteProblem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IgniteProblem.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79B0D0DF1E842DA1003D6F78 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		79B0D0E11E842DA1003D6F78 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		79B0D0E21E842DA1003D6F78 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		79B0D0E41E842DA1003D6F78 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		79B0D0E51E842DA1003D6F78 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		79B0D0E81E842DA1003D6F78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		79B0D0EA1E842DA1003D6F78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		79B0D0ED1E842DA1003D6F78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +67,31 @@
 		79B0D0FF1E842DA2003D6F78 /* IgniteProblemUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IgniteProblemUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		79B0D1031E842DA2003D6F78 /* IgniteProblemUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IgniteProblemUITests.m; sourceTree = "<group>"; };
 		79B0D1051E842DA2003D6F78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79B0D1111E843122003D6F78 /* back-arrow-circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back-arrow-circle.png"; sourceTree = "<group>"; };
+		79B0D1121E843122003D6F78 /* back-arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back-arrow.png"; sourceTree = "<group>"; };
+		79B0D1131E843122003D6F78 /* omdb-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "omdb-logo.png"; sourceTree = "<group>"; };
+		79B0D1141E843122003D6F78 /* search-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "search-icon.png"; sourceTree = "<group>"; };
+		79B0D11C1E8436C6003D6F78 /* SearchMovieViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchMovieViewController.h; sourceTree = "<group>"; };
+		79B0D11D1E8436C6003D6F78 /* SearchMovieViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchMovieViewController.m; sourceTree = "<group>"; };
+		79B0D1201E843879003D6F78 /* StringsConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StringsConstants.h; path = ../StringsConstants.h; sourceTree = "<group>"; };
+		79B0D1211E843897003D6F78 /* SearchedResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchedResultViewController.h; sourceTree = "<group>"; };
+		79B0D1221E843897003D6F78 /* SearchedResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchedResultViewController.m; sourceTree = "<group>"; };
+		79B0D1241E8438AD003D6F78 /* SelectedMovieViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectedMovieViewController.h; sourceTree = "<group>"; };
+		79B0D1251E8438AD003D6F78 /* SelectedMovieViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectedMovieViewController.m; sourceTree = "<group>"; };
+		79B0D1271E8438D5003D6F78 /* DataObjectClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataObjectClass.h; sourceTree = "<group>"; };
+		79B0D1281E8438D5003D6F78 /* DataObjectClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataObjectClass.m; sourceTree = "<group>"; };
+		79B0D12A1E8438ED003D6F78 /* APIFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APIFile.h; path = ../APIFile.h; sourceTree = "<group>"; };
+		79B0D12B1E8438ED003D6F78 /* APIFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = APIFile.m; path = ../APIFile.m; sourceTree = "<group>"; };
+		79B0D12D1E84390D003D6F78 /* PacketsFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PacketsFile.h; sourceTree = "<group>"; };
+		79B0D12E1E84390D003D6F78 /* PacketsFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PacketsFile.m; sourceTree = "<group>"; };
+		79B0D1301E843CB6003D6F78 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		79B0D1311E843CB6003D6F78 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		7AB08201DCBD448F1AC43D0F /* Pods-IgniteProblemUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IgniteProblemUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IgniteProblemUITests/Pods-IgniteProblemUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8C433BB7D789D91CCAE09D49 /* libPods-IgniteProblemTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IgniteProblemTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95E131EA9A49D0B97FB43FC5 /* Pods-IgniteProblemTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IgniteProblemTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IgniteProblemTests/Pods-IgniteProblemTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C12CEC00B2B7E5B49025C48B /* libPods-IgniteProblemUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IgniteProblemUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C653D2DF1E4C572F7DF682F8 /* Pods-IgniteProblem.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IgniteProblem.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IgniteProblem/Pods-IgniteProblem.debug.xcconfig"; sourceTree = "<group>"; };
+		FE2E5FDE114B739C2B217FC0 /* Pods-IgniteProblemUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IgniteProblemUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-IgniteProblemUITests/Pods-IgniteProblemUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				965B5917D32BDD137A8612B9 /* libPods-IgniteProblem.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +107,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				464E89745573AD4D65157B7C /* libPods-IgniteProblemTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +115,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				004CD07199C906DC5383C72D /* libPods-IgniteProblemUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,10 +125,17 @@
 		79B0D0D21E842DA1003D6F78 = {
 			isa = PBXGroup;
 			children = (
+				79B0D1111E843122003D6F78 /* back-arrow-circle.png */,
+				79B0D1121E843122003D6F78 /* back-arrow.png */,
+				79B0D1131E843122003D6F78 /* omdb-logo.png */,
+				79B0D1141E843122003D6F78 /* search-icon.png */,
+				795EB1DD1E84556800084AF9 /* prescription_ph@3x.png */,
 				79B0D0DD1E842DA1003D6F78 /* IgniteProblem */,
 				79B0D0F71E842DA1003D6F78 /* IgniteProblemTests */,
 				79B0D1021E842DA2003D6F78 /* IgniteProblemUITests */,
 				79B0D0DC1E842DA1003D6F78 /* Products */,
+				8B28003A101CDF26179CEE21 /* Pods */,
+				F9B5B453AE970E259B7F5547 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +152,23 @@
 		79B0D0DD1E842DA1003D6F78 /* IgniteProblem */ = {
 			isa = PBXGroup;
 			children = (
+				79B0D1201E843879003D6F78 /* StringsConstants.h */,
 				79B0D0E11E842DA1003D6F78 /* AppDelegate.h */,
 				79B0D0E21E842DA1003D6F78 /* AppDelegate.m */,
-				79B0D0E41E842DA1003D6F78 /* ViewController.h */,
-				79B0D0E51E842DA1003D6F78 /* ViewController.m */,
+				79B0D12D1E84390D003D6F78 /* PacketsFile.h */,
+				79B0D12E1E84390D003D6F78 /* PacketsFile.m */,
+				79B0D12A1E8438ED003D6F78 /* APIFile.h */,
+				79B0D12B1E8438ED003D6F78 /* APIFile.m */,
+				79B0D1271E8438D5003D6F78 /* DataObjectClass.h */,
+				79B0D1281E8438D5003D6F78 /* DataObjectClass.m */,
+				79B0D11C1E8436C6003D6F78 /* SearchMovieViewController.h */,
+				79B0D11D1E8436C6003D6F78 /* SearchMovieViewController.m */,
+				79B0D1211E843897003D6F78 /* SearchedResultViewController.h */,
+				79B0D1221E843897003D6F78 /* SearchedResultViewController.m */,
+				79B0D1241E8438AD003D6F78 /* SelectedMovieViewController.h */,
+				79B0D1251E8438AD003D6F78 /* SelectedMovieViewController.m */,
+				79B0D1301E843CB6003D6F78 /* Reachability.h */,
+				79B0D1311E843CB6003D6F78 /* Reachability.m */,
 				79B0D0E71E842DA1003D6F78 /* Main.storyboard */,
 				79B0D0EA1E842DA1003D6F78 /* Assets.xcassets */,
 				79B0D0EC1E842DA1003D6F78 /* LaunchScreen.storyboard */,
@@ -140,6 +204,29 @@
 			path = IgniteProblemUITests;
 			sourceTree = "<group>";
 		};
+		8B28003A101CDF26179CEE21 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C653D2DF1E4C572F7DF682F8 /* Pods-IgniteProblem.debug.xcconfig */,
+				6E7DF08A6ACB3CA00DD23CDF /* Pods-IgniteProblem.release.xcconfig */,
+				95E131EA9A49D0B97FB43FC5 /* Pods-IgniteProblemTests.debug.xcconfig */,
+				22E62083E9206D800EC99C4B /* Pods-IgniteProblemTests.release.xcconfig */,
+				7AB08201DCBD448F1AC43D0F /* Pods-IgniteProblemUITests.debug.xcconfig */,
+				FE2E5FDE114B739C2B217FC0 /* Pods-IgniteProblemUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F9B5B453AE970E259B7F5547 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				26174A34FE2A24B68C0D2B7C /* libPods-IgniteProblem.a */,
+				8C433BB7D789D91CCAE09D49 /* libPods-IgniteProblemTests.a */,
+				C12CEC00B2B7E5B49025C48B /* libPods-IgniteProblemUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +234,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 79B0D1081E842DA2003D6F78 /* Build configuration list for PBXNativeTarget "IgniteProblem" */;
 			buildPhases = (
+				4FD83DCB4C031D7FF2BA4D24 /* [CP] Check Pods Manifest.lock */,
 				79B0D0D71E842DA1003D6F78 /* Sources */,
 				79B0D0D81E842DA1003D6F78 /* Frameworks */,
 				79B0D0D91E842DA1003D6F78 /* Resources */,
+				D933824B17AE071E87B1A388 /* [CP] Embed Pods Frameworks */,
+				8AF891B8D4AE9176F8695ECA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +254,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 79B0D10B1E842DA2003D6F78 /* Build configuration list for PBXNativeTarget "IgniteProblemTests" */;
 			buildPhases = (
+				C5CE81B2C55F5A699BB41017 /* [CP] Check Pods Manifest.lock */,
 				79B0D0F01E842DA1003D6F78 /* Sources */,
 				79B0D0F11E842DA1003D6F78 /* Frameworks */,
 				79B0D0F21E842DA1003D6F78 /* Resources */,
+				E2FF45F889A44C407C689D16 /* [CP] Embed Pods Frameworks */,
+				A5978E5DEFAA07D5344FB321 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +275,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 79B0D10E1E842DA2003D6F78 /* Build configuration list for PBXNativeTarget "IgniteProblemUITests" */;
 			buildPhases = (
+				600692500AB078DBDFED21DE /* [CP] Check Pods Manifest.lock */,
 				79B0D0FB1E842DA2003D6F78 /* Sources */,
 				79B0D0FC1E842DA2003D6F78 /* Frameworks */,
 				79B0D0FD1E842DA2003D6F78 /* Resources */,
+				1F27F8E71ADC378AF5F66ABA /* [CP] Embed Pods Frameworks */,
+				C4E4FB0EE916764FE04B0BAB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -246,9 +342,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79B0D1151E843122003D6F78 /* back-arrow-circle.png in Resources */,
 				79B0D0EE1E842DA1003D6F78 /* LaunchScreen.storyboard in Resources */,
+				79B0D1171E843122003D6F78 /* omdb-logo.png in Resources */,
 				79B0D0EB1E842DA1003D6F78 /* Assets.xcassets in Resources */,
+				79B0D1161E843122003D6F78 /* back-arrow.png in Resources */,
+				795EB1DE1E84556800084AF9 /* prescription_ph@3x.png in Resources */,
 				79B0D0E91E842DA1003D6F78 /* Main.storyboard in Resources */,
+				79B0D1181E843122003D6F78 /* search-icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,14 +369,158 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1F27F8E71ADC378AF5F66ABA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IgniteProblemUITests/Pods-IgniteProblemUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4FD83DCB4C031D7FF2BA4D24 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		600692500AB078DBDFED21DE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8AF891B8D4AE9176F8695ECA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IgniteProblem/Pods-IgniteProblem-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5978E5DEFAA07D5344FB321 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IgniteProblemTests/Pods-IgniteProblemTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4E4FB0EE916764FE04B0BAB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IgniteProblemUITests/Pods-IgniteProblemUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5CE81B2C55F5A699BB41017 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D933824B17AE071E87B1A388 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IgniteProblem/Pods-IgniteProblem-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2FF45F889A44C407C689D16 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IgniteProblemTests/Pods-IgniteProblemTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		79B0D0D71E842DA1003D6F78 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79B0D0E61E842DA1003D6F78 /* ViewController.m in Sources */,
 				79B0D0E31E842DA1003D6F78 /* AppDelegate.m in Sources */,
+				79B0D12C1E8438ED003D6F78 /* APIFile.m in Sources */,
 				79B0D0E01E842DA1003D6F78 /* main.m in Sources */,
+				79B0D12F1E84390D003D6F78 /* PacketsFile.m in Sources */,
+				79B0D1231E843897003D6F78 /* SearchedResultViewController.m in Sources */,
+				79B0D1291E8438D5003D6F78 /* DataObjectClass.m in Sources */,
+				79B0D1261E8438AD003D6F78 /* SelectedMovieViewController.m in Sources */,
+				79B0D1321E843CB6003D6F78 /* Reachability.m in Sources */,
+				79B0D11E1E8436C6003D6F78 /* SearchMovieViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,9 +667,11 @@
 		};
 		79B0D1091E842DA2003D6F78 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C653D2DF1E4C572F7DF682F8 /* Pods-IgniteProblem.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = IgniteProblem/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sample.project.IgniteProblem;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -433,9 +680,11 @@
 		};
 		79B0D10A1E842DA2003D6F78 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E7DF08A6ACB3CA00DD23CDF /* Pods-IgniteProblem.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = IgniteProblem/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sample.project.IgniteProblem;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -444,6 +693,7 @@
 		};
 		79B0D10C1E842DA2003D6F78 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95E131EA9A49D0B97FB43FC5 /* Pods-IgniteProblemTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = IgniteProblemTests/Info.plist;
@@ -456,6 +706,7 @@
 		};
 		79B0D10D1E842DA2003D6F78 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22E62083E9206D800EC99C4B /* Pods-IgniteProblemTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = IgniteProblemTests/Info.plist;
@@ -468,6 +719,7 @@
 		};
 		79B0D10F1E842DA2003D6F78 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AB08201DCBD448F1AC43D0F /* Pods-IgniteProblemUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = IgniteProblemUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -479,6 +731,7 @@
 		};
 		79B0D1101E842DA2003D6F78 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE2E5FDE114B739C2B217FC0 /* Pods-IgniteProblemUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = IgniteProblemUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -507,6 +760,7 @@
 				79B0D10A1E842DA2003D6F78 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		79B0D10B1E842DA2003D6F78 /* Build configuration list for PBXNativeTarget "IgniteProblemTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +769,7 @@
 				79B0D10D1E842DA2003D6F78 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		79B0D10E1E842DA2003D6F78 /* Build configuration list for PBXNativeTarget "IgniteProblemUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +778,7 @@
 				79B0D1101E842DA2003D6F78 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
